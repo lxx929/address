@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>地址管理</title>
+    <!-- <script src="js/mui.min.js"></script> -->
+    <!-- <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script> -->
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/add.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <a class="mui-icon mui-icon-left-nav mui-pull-left" href="../index.html"></a>
+            <h1>新添地址</h1>
+        </header>
+        <section>
+            <ul id="list">
+                <li>
+                    姓名: <input type="text" id="name" placeholder="姓名">
+                </li>
+                <li>
+                    手机号: <input type="text" id="tel" placeholder="手机号">
+                </li>
+                <li>
+                    地址: <input type="text" id="address" placeholder="地址">
+                </li>
+            </ul>
+        </section>
+        <footer>
+            <button id="addAddress">
+               完成
+            </button>
+        </footer>
+    </div>
+</body>
+<script src="../js/common/require.js" data-main="../js/page/add"></script>
+
+</html>
